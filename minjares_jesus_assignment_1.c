@@ -1,5 +1,5 @@
 
-/*Author:   Jesus Minjares
+/*Author:   Jesus Minjares 
  *Assignment 01
     Write a program that creates three processes to execute the 
     following three programs with command line arguments:
