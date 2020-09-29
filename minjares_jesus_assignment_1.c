@@ -12,11 +12,11 @@
                 -----------------------------------------
                 excelp(command, command, arguments, NULL)
  */
-#include <sys/wait.h>
+#include <sys/wait.h> //waitpid
 #include <sys/types.h> //fork()
-#include <unistd.h> //execl()
+#include <unistd.h> //execlp()
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h> //printf
 int main(){
     pid_t child[4]; //create 4 pid_t for each child of the parent
     char *commands[] =  {"cat","echo","uname", "ls"}; //commands 
